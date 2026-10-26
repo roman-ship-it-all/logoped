@@ -1,0 +1,25 @@
+/* Production UI starter tokens; use alongside responsive game layout. */
+:root {
+  --ink: #234C4A; --teal: #338477; --mint: #A9D6C0;
+  --gold: #F4C45E; --coral: #E78D79; --cream: #FFF6E7;
+  --lilac: #B8ABD6; --white: #fff; --disabled: #DCE3DE;
+  --font: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius-card: 28px; --radius-button: 20px;
+  --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 32px;
+  --hit-size: 56px; --transition: 200ms ease-out;
+}
+body { background: var(--cream); color: var(--ink); font-family: var(--font); }
+button { min-height: var(--hit-size); min-width: var(--hit-size); border: 2px solid transparent;
+  border-radius: var(--radius-button); padding: 14px 24px; font: 600 1.125rem var(--font);
+  background: var(--teal); color: white; cursor: pointer; touch-action: manipulation; }
+button:hover:not(:disabled) { background: #286D63; }
+button:active:not(:disabled) { background: var(--ink); }
+button.secondary { background: white; color: var(--ink); border-color: #D5DED4; }
+button.secondary:hover:not(:disabled) { background: #E5EEE0; }
+button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+button:disabled { background: var(--disabled); color: #536D67; cursor: default; }
+.word-choice[aria-pressed="true"] { border: 3px solid var(--teal); }
+/* Selected checkmarks and visible counts must accompany the border. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

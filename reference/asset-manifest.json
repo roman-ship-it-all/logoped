@@ -1,0 +1,1221 @@
+{
+  "project": "Say It with Kiki",
+  "profile_version": "1.0",
+  "assets": [
+    {
+      "id": "assets-backgrounds-meadow",
+      "path": "assets/backgrounds/meadow.svg",
+      "kind": "vector",
+      "width": 1440,
+      "height": 900,
+      "alpha_required": false,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/backgrounds/meadow.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-mascot-kiki-happy",
+      "path": "assets/mascot/kiki-happy.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/mascot/kiki-happy.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-mascot-kiki-listening",
+      "path": "assets/mascot/kiki-listening.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/mascot/kiki-listening.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-mascot-kiki-welcome",
+      "path": "assets/mascot/kiki-welcome.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/mascot/kiki-welcome.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-rewards-flower-0",
+      "path": "assets/rewards/flower-0.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/rewards/flower-0.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-rewards-flower-1",
+      "path": "assets/rewards/flower-1.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/rewards/flower-1.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-rewards-flower-2",
+      "path": "assets/rewards/flower-2.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/rewards/flower-2.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-back",
+      "path": "assets/ui/back.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/back.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-check",
+      "path": "assets/ui/check.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/check.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-close",
+      "path": "assets/ui/close.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/close.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-flower",
+      "path": "assets/ui/flower.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/flower.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-help",
+      "path": "assets/ui/help.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/help.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-home",
+      "path": "assets/ui/home.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/home.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-mute",
+      "path": "assets/ui/mute.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/mute.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-next",
+      "path": "assets/ui/next.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/next.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-pause",
+      "path": "assets/ui/pause.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/pause.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-play",
+      "path": "assets/ui/play.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/play.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-replay",
+      "path": "assets/ui/replay.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/replay.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-settings",
+      "path": "assets/ui/settings.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/settings.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-speaker",
+      "path": "assets/ui/speaker.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/speaker.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-ui-star",
+      "path": "assets/ui/star.svg",
+      "kind": "vector",
+      "width": 64,
+      "height": 64,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/ui/star.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-auto",
+      "path": "assets/words/auto.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/auto.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-baba",
+      "path": "assets/words/baba.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/baba.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-banan",
+      "path": "assets/words/banan.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/banan.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-bota",
+      "path": "assets/words/bota.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/bota.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-buben",
+      "path": "assets/words/buben.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/buben.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-cepice",
+      "path": "assets/words/cepice.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/cepice.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-chleb",
+      "path": "assets/words/chleb.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/chleb.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-deda",
+      "path": "assets/words/deda.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/deda.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-dum",
+      "path": "assets/words/dum.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/dum.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-hlava",
+      "path": "assets/words/hlava.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/hlava.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-houba",
+      "path": "assets/words/houba.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/houba.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-hrnek",
+      "path": "assets/words/hrnek.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/hrnek.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-hruska",
+      "path": "assets/words/hruska.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/hruska.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-hvezda",
+      "path": "assets/words/hvezda.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/hvezda.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-jablko",
+      "path": "assets/words/jablko.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/jablko.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-jahoda",
+      "path": "assets/words/jahoda.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/jahoda.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kachna",
+      "path": "assets/words/kachna.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kachna.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-klic",
+      "path": "assets/words/klic.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/klic.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kniha",
+      "path": "assets/words/kniha.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kniha.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kocka",
+      "path": "assets/words/kocka.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kocka.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kolo",
+      "path": "assets/words/kolo.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kolo.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kostka",
+      "path": "assets/words/kostka.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kostka.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-koza",
+      "path": "assets/words/koza.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/koza.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-krava",
+      "path": "assets/words/krava.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/krava.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kun",
+      "path": "assets/words/kun.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kun.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-kvet",
+      "path": "assets/words/kvet.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/kvet.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-list",
+      "path": "assets/words/list.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/list.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-lod",
+      "path": "assets/words/lod.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/lod.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-lzice",
+      "path": "assets/words/lzice.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/lzice.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mama",
+      "path": "assets/words/mama.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mama.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mesic",
+      "path": "assets/words/mesic.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mesic.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mic",
+      "path": "assets/words/mic.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mic.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mimino",
+      "path": "assets/words/mimino.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mimino.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mleko",
+      "path": "assets/words/mleko.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mleko.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mrkev",
+      "path": "assets/words/mrkev.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mrkev.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-mys",
+      "path": "assets/words/mys.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/mys.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-noha",
+      "path": "assets/words/noha.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/noha.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-nos",
+      "path": "assets/words/nos.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/nos.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-oko",
+      "path": "assets/words/oko.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/oko.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-ovce",
+      "path": "assets/words/ovce.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/ovce.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-panenka",
+      "path": "assets/words/panenka.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/panenka.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-papa",
+      "path": "assets/words/papa.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/papa.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-pes",
+      "path": "assets/words/pes.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/pes.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-postel",
+      "path": "assets/words/postel.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/postel.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-prase",
+      "path": "assets/words/prase.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/prase.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-pusa",
+      "path": "assets/words/pusa.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/pusa.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-ruka",
+      "path": "assets/words/ruka.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/ruka.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-ryba",
+      "path": "assets/words/ryba.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/ryba.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-slunce",
+      "path": "assets/words/slunce.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/slunce.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-strom",
+      "path": "assets/words/strom.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/strom.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-stul",
+      "path": "assets/words/stul.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/stul.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-syr",
+      "path": "assets/words/syr.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/syr.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-tata",
+      "path": "assets/words/tata.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/tata.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-trava",
+      "path": "assets/words/trava.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/trava.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-ucho",
+      "path": "assets/words/ucho.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/ucho.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-vejce",
+      "path": "assets/words/vejce.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/vejce.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-vlak",
+      "path": "assets/words/vlak.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/vlak.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-voda",
+      "path": "assets/words/voda.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/voda.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-zidle",
+      "path": "assets/words/zidle.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/zidle.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    },
+    {
+      "id": "assets-words-zub",
+      "path": "assets/words/zub.svg",
+      "kind": "vector",
+      "width": 512,
+      "height": 512,
+      "alpha_required": true,
+      "references": [
+        "visual-profile-1.0"
+      ],
+      "display_size": "words: 180\u2013320px; UI: 24\u201332px inside 56px button; mascot: 96\u2013220px",
+      "source": "assets/words/zub.svg",
+      "states": "static",
+      "color_space": "sRGB"
+    }
+  ]
+}

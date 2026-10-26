@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Řekni to s Kiki</title>
+<link rel="icon" href="assets/ui/flower.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/tokens.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Přejít na obsah</a>
+
+<header class="topbar">
+  <h1 class="brand">Řekni to s Kiki</h1>
+  <div class="topbar-actions">
+    <button type="button" id="btn-sound" class="icon-btn secondary" aria-pressed="true">
+      <img id="sound-icon" src="assets/ui/speaker.svg" alt="" aria-hidden="true">
+      <span id="sound-label">Zvuk zapnutý</span>
+    </button>
+    <button type="button" id="btn-motion" class="icon-btn secondary" aria-pressed="true">
+      <img src="assets/ui/star.svg" alt="" aria-hidden="true">
+      <span id="motion-label">Pohyb zapnutý</span>
+    </button>
+  </div>
+</header>
+
+<main id="main" class="app" aria-busy="true">
+
+  <!-- LOADING / ERROR -->
+  <section class="screen" id="screen-loading" data-screen="loading">
+    <div class="panel center">
+      <img class="mascot mascot-sm" src="assets/mascot/kiki-welcome.svg" alt="Králíček Kiki">
+      <p id="loading-text" class="lead">Načítám slovíčka…</p>
+      <p id="load-error" class="lead" hidden>Slovíčka se nepodařilo načíst.</p>
+      <button type="button" id="btn-retry" hidden>Zkusit znovu</button>
+    </div>
+  </section>
+
+  <!-- WELCOME -->
+  <section class="screen" id="screen-welcome" data-screen="welcome" hidden>
+    <div class="welcome-grid">
+      <div class="welcome-mascot">
+        <img class="mascot" src="assets/mascot/kiki-welcome.svg" alt="Králíček Kiki mává a vítá tě">
+      </div>
+      <div class="panel welcome-panel">
+        <h2 id="welcome-title">Řekni to s Kiki</h2>
+        <p class="lead">Podívej se na obrázek, poslechni si slovíčko a zkus ho říct. Hrajeme spolu, bez spěchu.</p>
+        <p class="note" id="welcome-audio-note">Slovíčko přečte dospělý.</p>
+        <p class="note subtle" id="welcome-selection">Vybraná slovíčka: máma, táta, oko, bota, auto</p>
+        <div class="stack">
+          <button type="button" id="btn-start" class="primary big">Začít</button>
+          <button type="button" id="btn-choose" class="secondary">Vybrat slovíčka <span class="adult-tag">Pro dospělé</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADULT SELECTION -->
+  <section class="screen" id="screen-select" data-screen="select" hidden>
+    <div class="select-head">
+      <button type="button" id="btn-select-back" class="secondary icon-btn">
+        <img src="assets/ui/back.svg" alt="" aria-hidden="true"><span>Zpět</span>
+      </button>
+      <div class="select-title">
+        <h2>Vybrat slovíčka <span class="adult-tag">Pro dospělé</span></h2>
+        <p class="note">Vyberte přesně 5 obrázků.</p>
+      </div>
+    </div>
+
+    <div class="select-toolbar">
+      <div class="filters" role="group" aria-label="Filtr kategorií" id="filters"></div>
+      <div class="select-status">
+        <p id="selection-counter" class="counter" aria-live="polite">Vybráno 0 z 5</p>
+        <p id="selection-notice" class="notice" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <div class="word-grid" id="word-grid" role="group" aria-label="Slovíčka"></div>
+
+    <div class="select-actions">
+      <button type="button" id="btn-reset" class="secondary">Obnovit výchozí výběr</button>
+      <button type="button" id="btn-select-start" class="primary" disabled>Začít</button>
+    </div>
+  </section>
+
+  <!-- PLAY -->
+  <section class="screen" id="screen-play" data-screen="play" hidden>
+    <div class="play-grid">
+      <div class="play-side">
+        <div class="mascot-row">
+          <img class="mascot mascot-sm" src="assets/mascot/kiki-listening.svg" alt="Králíček Kiki poslouchá">
+          <p class="lead" id="card-prompt">Teď to zkus ty.</p>
+        </div>
+        <div class="garden" id="garden" aria-label="Zahrádka">
+          <!-- five flower slots -->
+        </div>
+      </div>
+
+      <div class="play-main">
+        <p id="card-counter" class="counter">Slovíčko 1 z 5</p>
+        <div class="panel card" id="card">
+          <div class="card-picture" id="card-picture">
+            <img id="card-image" src="" alt="" width="512" height="512" decoding="async">
+            <div id="card-fallback" class="picture-fallback" hidden>Obrázek není dostupný.</div>
+          </div>
+          <p id="card-word" class="word">máma</p>
+          <div class="card-audio">
+            <button type="button" id="btn-replay" class="primary" hidden>
+              <img src="assets/ui/replay.svg" alt="" aria-hidden="true"><span>Poslechnout znovu</span>
+            </button>
+            <p id="adult-led" class="adult-led">Slovíčko přečte dospělý.</p>
+          </div>
+        </div>
+
+        <div class="play-actions">
+          <button type="button" id="btn-next" class="primary big">
+            <span>Dál</span><img src="assets/ui/next.svg" alt="" aria-hidden="true">
+          </button>
+          <button type="button" id="btn-skip" class="link-btn">Přeskočit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="play-controls">
+      <button type="button" id="btn-pause" class="secondary icon-btn">
+        <img src="assets/ui/pause.svg" alt="" aria-hidden="true"><span>Pozastavit</span>
+      </button>
+      <button type="button" id="btn-exit" class="secondary icon-btn">
+        <img src="assets/ui/close.svg" alt="" aria-hidden="true"><span>Ukončit hru</span>
+      </button>
+    </div>
+    <p id="live" class="sr-only" aria-live="polite"></p>
+  </section>
+
+  <!-- COMPLETION -->
+  <section class="screen" id="screen-complete" data-screen="complete" hidden>
+    <div class="panel center complete-panel">
+      <img class="mascot" src="assets/mascot/kiki-happy.svg" alt="Králíček Kiki se raduje">
+      <h2>Naše zahrádka rozkvetla!</h2>
+      <div class="garden garden-big" id="garden-final" aria-label="Pět rozkvetlých kytiček"></div>
+      <p class="lead">Děkuju za společné hraní.</p>
+      <div class="row">
+        <button type="button" id="btn-restart" class="primary big">Hrát znovu</button>
+        <button type="button" id="btn-done" class="secondary">Hotovo</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- PAUSE / EXIT DIALOG -->
+<div class="dialog-backdrop" id="dialog" hidden>
+  <div class="dialog panel" role="dialog" aria-modal="true" aria-labelledby="dialog-title" tabindex="-1">
+    <h2 id="dialog-title">Chcete ukončit hraní?</h2>
+    <p class="note" id="dialog-text">Hra je pozastavená. Můžete pokračovat, nebo se vrátit na začátek.</p>
+    <div class="stack">
+      <button type="button" id="btn-resume" class="primary big">Pokračovat</button>
+      <button type="button" id="btn-to-welcome" class="secondary">Ukončit hru</button>
+      <button type="button" id="btn-to-select" class="secondary">Vybrat slovíčka <span class="adult-tag">Pro dospělé</span></button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "mama",
+    "recordOnly": "máma",
+    "runtimePath": "audio/words/mama.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: máma.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "tata",
+    "recordOnly": "táta",
+    "runtimePath": "audio/words/tata.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: táta.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "baba",
+    "recordOnly": "bába",
+    "runtimePath": "audio/words/baba.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: bába.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "deda",
+    "recordOnly": "děda",
+    "runtimePath": "audio/words/deda.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: děda.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mimino",
+    "recordOnly": "mimino",
+    "runtimePath": "audio/words/mimino.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: mimino.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "papa",
+    "recordOnly": "pápá",
+    "runtimePath": "audio/words/papa.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: pápá.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "pes",
+    "recordOnly": "pes",
+    "runtimePath": "audio/words/pes.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: pes.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kocka",
+    "recordOnly": "kočka",
+    "runtimePath": "audio/words/kocka.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kočka.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mys",
+    "recordOnly": "myš",
+    "runtimePath": "audio/words/mys.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: myš.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kun",
+    "recordOnly": "kůň",
+    "runtimePath": "audio/words/kun.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kůň.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "krava",
+    "recordOnly": "kráva",
+    "runtimePath": "audio/words/krava.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kráva.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "ovce",
+    "recordOnly": "ovce",
+    "runtimePath": "audio/words/ovce.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: ovce.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "koza",
+    "recordOnly": "koza",
+    "runtimePath": "audio/words/koza.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: koza.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "prase",
+    "recordOnly": "prase",
+    "runtimePath": "audio/words/prase.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: prase.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kachna",
+    "recordOnly": "kachna",
+    "runtimePath": "audio/words/kachna.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kachna.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "ryba",
+    "recordOnly": "ryba",
+    "runtimePath": "audio/words/ryba.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: ryba.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "voda",
+    "recordOnly": "voda",
+    "runtimePath": "audio/words/voda.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: voda.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mleko",
+    "recordOnly": "mléko",
+    "runtimePath": "audio/words/mleko.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: mléko.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "banan",
+    "recordOnly": "banán",
+    "runtimePath": "audio/words/banan.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: banán.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "jablko",
+    "recordOnly": "jablko",
+    "runtimePath": "audio/words/jablko.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: jablko.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "hruska",
+    "recordOnly": "hruška",
+    "runtimePath": "audio/words/hruska.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: hruška.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "jahoda",
+    "recordOnly": "jahoda",
+    "runtimePath": "audio/words/jahoda.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: jahoda.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mrkev",
+    "recordOnly": "mrkev",
+    "runtimePath": "audio/words/mrkev.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: mrkev.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "chleb",
+    "recordOnly": "chléb",
+    "runtimePath": "audio/words/chleb.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: chléb.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "vejce",
+    "recordOnly": "vejce",
+    "runtimePath": "audio/words/vejce.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: vejce.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "syr",
+    "recordOnly": "sýr",
+    "runtimePath": "audio/words/syr.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: sýr.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mic",
+    "recordOnly": "míč",
+    "runtimePath": "audio/words/mic.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: míč.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "auto",
+    "recordOnly": "auto",
+    "runtimePath": "audio/words/auto.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: auto.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "vlak",
+    "recordOnly": "vlak",
+    "runtimePath": "audio/words/vlak.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: vlak.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "lod",
+    "recordOnly": "loď",
+    "runtimePath": "audio/words/lod.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: loď.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kolo",
+    "recordOnly": "kolo",
+    "runtimePath": "audio/words/kolo.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kolo.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "bota",
+    "recordOnly": "bota",
+    "runtimePath": "audio/words/bota.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: bota.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "cepice",
+    "recordOnly": "čepice",
+    "runtimePath": "audio/words/cepice.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: čepice.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "dum",
+    "recordOnly": "dům",
+    "runtimePath": "audio/words/dum.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: dům.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "hrnek",
+    "recordOnly": "hrnek",
+    "runtimePath": "audio/words/hrnek.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: hrnek.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "lzice",
+    "recordOnly": "lžíce",
+    "runtimePath": "audio/words/lzice.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: lžíce.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "oko",
+    "recordOnly": "oko",
+    "runtimePath": "audio/words/oko.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: oko.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "ucho",
+    "recordOnly": "ucho",
+    "runtimePath": "audio/words/ucho.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: ucho.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "nos",
+    "recordOnly": "nos",
+    "runtimePath": "audio/words/nos.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: nos.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "pusa",
+    "recordOnly": "pusa",
+    "runtimePath": "audio/words/pusa.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: pusa.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "ruka",
+    "recordOnly": "ruka",
+    "runtimePath": "audio/words/ruka.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: ruka.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "noha",
+    "recordOnly": "noha",
+    "runtimePath": "audio/words/noha.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: noha.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "zub",
+    "recordOnly": "zub",
+    "runtimePath": "audio/words/zub.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: zub.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "hlava",
+    "recordOnly": "hlava",
+    "runtimePath": "audio/words/hlava.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: hlava.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "strom",
+    "recordOnly": "strom",
+    "runtimePath": "audio/words/strom.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: strom.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "list",
+    "recordOnly": "list",
+    "runtimePath": "audio/words/list.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: list.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kvet",
+    "recordOnly": "květ",
+    "runtimePath": "audio/words/kvet.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: květ.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "slunce",
+    "recordOnly": "slunce",
+    "runtimePath": "audio/words/slunce.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: slunce.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "mesic",
+    "recordOnly": "měsíc",
+    "runtimePath": "audio/words/mesic.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: měsíc.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "hvezda",
+    "recordOnly": "hvězda",
+    "runtimePath": "audio/words/hvezda.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: hvězda.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "houba",
+    "recordOnly": "houba",
+    "runtimePath": "audio/words/houba.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: houba.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "trava",
+    "recordOnly": "tráva",
+    "runtimePath": "audio/words/trava.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: tráva.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kniha",
+    "recordOnly": "kniha",
+    "runtimePath": "audio/words/kniha.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kniha.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "klic",
+    "recordOnly": "klíč",
+    "runtimePath": "audio/words/klic.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: klíč.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "stul",
+    "recordOnly": "stůl",
+    "runtimePath": "audio/words/stul.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: stůl.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "zidle",
+    "recordOnly": "židle",
+    "runtimePath": "audio/words/zidle.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: židle.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "postel",
+    "recordOnly": "postel",
+    "runtimePath": "audio/words/postel.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: postel.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "buben",
+    "recordOnly": "buben",
+    "runtimePath": "audio/words/buben.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: buben.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "panenka",
+    "recordOnly": "panenka",
+    "runtimePath": "audio/words/panenka.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: panenka.",
+    "status": "not-recorded"
+  },
+  {
+    "id": "kostka",
+    "recordOnly": "kostka",
+    "runtimePath": "audio/words/kostka.mp3",
+    "contextPromptDoNotRecord": "Řekni se mnou: kostka.",
+    "status": "not-recorded"
+  }
+]

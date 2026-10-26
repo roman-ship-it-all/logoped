@@ -1,0 +1,71 @@
+project: Say It with Kiki
+profile_version: '1.0'
+status: selected
+intent:
+  audience: Czech-speaking children approximately 3–6 with an adult
+  emotional_effect: calm invitation, optional repetition, no judgment
+  visual_thesis: One recognizable rounded object on a quiet cream or white field; teal controls and a small rabbit guide.
+  signature_motif: Rounded outlined shapes and a teal scarf; a five-flower garden grows with participation.
+targets:
+  medium: [browser, touch, desktop]
+  engine_or_browser: semantic HTML and CSS, SVG images
+  display_sizes: {word: '180–320px', mascot: '96–220px', icon: '24–32px inside minimum 56px target'}
+  budgets: {single_svg: '<20KB target', total_runtime_art: '<1MB target', dependencies: none}
+references:
+  - id: canonical-cat
+    path_or_url: assets/words/kocka.svg
+    role: typical word pictogram
+  - id: canonical-kiki
+    path_or_url: assets/mascot/kiki-welcome.svg
+    role: mascot identity
+  - id: canonical-ui
+    path_or_url: previews/game-mobile.svg
+    role: hierarchy and spacing
+visual_rules:
+  palette_roles:
+    ink: {color: '#234C4A', use: outlines and text}
+    teal: {color: '#338477', use: primary controls and Kiki scarf}
+    mint: {color: '#A9D6C0', use: foliage and secondary objects}
+    gold: {color: '#F4C45E', use: sun and warm objects}
+    coral: {color: '#E78D79', use: fruit, petals and cheeks}
+    cream: {color: '#FFF6E7', use: quiet background}
+    lilac: {color: '#B8ABD6', use: secondary object variety}
+  value_hierarchy: Dark text/outline first; white picture card; low-contrast background decoration.
+  shape_language: Circular masses, round line caps/joins, no sharp decorative noise.
+  outline_at_target_size: Word assets use 10 units at 512 viewBox; control strokes optically strengthened.
+  detail_density: One main object; no embedded labels; key distinguishing features only.
+  typography_roles: {family: 'system-ui, Segoe UI, sans-serif', word: '36–44px bold', prompt: '20–24px', control: '18–22px semibold'}
+  ui_spacing_and_geometry: {base: 8px, card_radius: 28px, button_radius: 20px, minimum_touch_target: 56px}
+  perspective_and_camera: Front or simple side/profile views; no perspective motion.
+  light: Flat fills; no cast-shadow or realistic light dependency.
+identity_invariants:
+  - Kiki has two long round ears, cream body, coral inner ears and cheeks, one teal scarf, dark dot eyes.
+  - Word pictures have no background or baked-in text.
+  - UI labels remain HTML text; previews are references, not screen backgrounds.
+allowed_variations:
+  - Three static Kiki poses with identical body, scarf and face language.
+  - Object-local colors selected for recognition; line color remains ink.
+undesired_deviations:
+  - Emoji substitutions or platform-dependent pictograms.
+  - Clinical mouth diagrams, animated phoneme instruction or correctness cues.
+production:
+  export_formats: {master: SVG, word_compatibility: transparent PNG 256x256, preview: SVG and PNG}
+  color_space: sRGB
+  transparency_rules: Object art is transparent; meadow and screen references are opaque.
+  source_and_export_locations: {source: assets, png: exports/words, generator: tools/build_assets.py}
+  atlas_padding_and_filtering: No atlas; preserve the full square canvas.
+motion:
+  purpose_and_character: Static deliverables; optional transitions specified for implementation only.
+  durations_and_easing: {card: '200ms ease-out', garden: '200–300ms ease-out'}
+  anchors: {mascot: 'bottom center', word: center, flower: 'bottom center'}
+  reduced_motion_behavior: Immediate final state; no function depends on animation.
+canonical_assets:
+  - {id: canonical-cat, path: assets/words/kocka.svg, role: word, selection_status: selected}
+  - {id: canonical-kiki, path: assets/mascot/kiki-welcome.svg, role: mascot, selection_status: selected}
+verification:
+  target_size_preview: previews/vocabulary-sheet.png
+  context_preview: previews/game-mobile.png and previews/game-desktop.png
+  motion_playback: Not applicable; static art only.
+  unresolved_issues:
+    - No child recognition pilot or clinical validation.
+    - Native Czech audio recording and review pending.

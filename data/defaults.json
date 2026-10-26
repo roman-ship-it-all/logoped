@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "selectedIds": [
+    "mama",
+    "tata",
+    "oko",
+    "bota",
+    "auto"
+  ],
+  "sessionLength": 5,
+  "soundEnabled": true,
+  "motionEnabled": true
+}
